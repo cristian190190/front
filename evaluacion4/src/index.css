@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 5%;
+  background-color: #666;
+}
+
+.tareas-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.tarea {
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #FFFFCC;
+}
+
+.tarea.importante {
+  border-color: #EC7063;
+  background-color: #EC7063;
+}
+
+.eliminarCarta {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.eliminarCarta button {
+  background-color: transparent;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
